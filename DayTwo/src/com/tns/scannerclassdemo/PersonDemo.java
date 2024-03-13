@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class PersonDemo {
 
 	public static void main(String[] args) {
-		Person p1=new Person();
+		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter name");
 		String name=sc.next();
@@ -19,6 +19,10 @@ public class PersonDemo {
 		
 		System.out.println("Enter income");
 		double income=sc.nextDouble();
+		
+		Person p1=new Person(34,"")
+		
+		
 		
 		
 		
