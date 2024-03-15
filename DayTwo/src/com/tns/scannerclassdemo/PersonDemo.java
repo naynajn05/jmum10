@@ -20,7 +20,12 @@ public class PersonDemo {
 		System.out.println("Enter income");
 		double income=sc.nextDouble();
 		
-		Person p1=new Person(34,"")
+		Person p1=new Person(age,gender,income,name);
+		
+		TaxCalculation tax=new TaxCalculation();
+		tax.calculateTax(p1);
+		System.out.println(p1);
+		
 		
 		
 		
