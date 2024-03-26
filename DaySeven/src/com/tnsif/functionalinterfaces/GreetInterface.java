@@ -4,5 +4,6 @@ package com.tnsif.functionalinterfaces;
 @FunctionalInterface
 public interface GreetInterface {
 	 String greet();
+	 //int add();
 	 	 
 }
